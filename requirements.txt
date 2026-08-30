@@ -1,1 +1,10 @@
-
+tensorflow==2.21.0
+numpy
+opencv-python
+Pillow
+scikit-learn
+matplotlib
+seaborn
+streamlit
+shap
+lime
