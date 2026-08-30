@@ -78,8 +78,7 @@ st.sidebar.markdown("""
 st.title("🧠 Alzheimer's Disease Prediction System")
 
 st.write("""
-Upload a brain MRI image to predict the Alzheimer's disease stage using
-the trained ResNet50 model.
+Upload a brain MRI image to predict the Alzheimer's disease stage using the trained Hybrid ResNet50 + EfficientNetB3 + CBAM model.
 """)
 
 st.markdown("---")
