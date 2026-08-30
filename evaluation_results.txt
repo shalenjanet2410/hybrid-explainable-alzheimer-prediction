@@ -1,0 +1,45 @@
+Number of Test Images : 4354
+
+Class Mapping
+MildDemented -> 0
+ModerateDemented -> 1
+NonDemented -> 2
+VeryMildDemented -> 3
+I0000 00:00:1783832118.026109   11672 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From C:\Users\shalen janet\OneDrive\Desktop\alzheimers_project(4.7.26)\venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:233: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+
+============================================================
+Hybrid ResNet50 + EfficientNetB3 + CBAM
+============================================================
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+
+Best model loaded successfully.
+
+============================================================
+TEST RESULTS
+============================================================
+Loss      : 0.1961
+Accuracy  : 77.47%
+
+Precision : 0.8195
+Recall    : 0.7747
+F1 Score  : 0.7732
+Balanced Accuracy : 79.44%
+Balanced Accuracy : 0.7944
+Cohen's Kappa    : 0.7003
+Matthews CC      : 0.7160
+                  precision    recall  f1-score   support
+
+    MildDemented     0.8383    0.8595    0.8487       989
+ModerateDemented     0.9928    0.9969    0.9948       968
+     NonDemented     0.9081    0.5020    0.6465      1279
+VeryMildDemented     0.5515    0.8193    0.6592      1118
+
+        accuracy                         0.7747      4354
+       macro avg     0.8226    0.7944    0.7873      4354
+    weighted avg     0.8195    0.7747    0.7732      4354
+
+
+Evaluation Completed Successfully.
